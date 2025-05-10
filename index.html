@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pendulum Simulation</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="controls">
+    <label>Angle (°): <input type="number" id="angleInput" value="45" min="-90" max="90"></label>
+    <label>Length (cm): <input type="number" id="lengthInput" value="200" min="50" max="300"></label>
+    <label>Mass (kg): <input type="number" id="massInput" value="4" min="1" max="10" step="0.1"></label>
+    <button onclick="applySettings()">Apply</button>
+  </div>
+</body>
+</html>
